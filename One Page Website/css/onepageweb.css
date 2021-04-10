@@ -1,0 +1,36 @@
+.header{
+    background-color: grey;
+    height:70px;
+    margin: 10px;
+    display: flex;
+    padding:5px;
+
+}
+
+.navItem{
+    display:inline-block;
+    padding:15px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    width:150px;
+    border: 1px solid black;
+}
+
+.leftBlock{
+    float:left;
+    height: 750px;
+    width:29%;
+    background-color:blue;
+    border-right: 1px solid black;
+    display:block;
+}
+
+.rightBlock{
+    float:right;
+    height:750px;
+    width:70%;
+    background-color:teal;
+    display:block;
+}
